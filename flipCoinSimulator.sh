@@ -51,7 +51,13 @@ then
     echo "TIE";
     break;
 
+fi
+
+
+if [ $count_H -eq $count_T ]
+then
+        echo "TIE";
 else
-    echo "EXIT";
+       echo "There is no TIE"
 fi
 
